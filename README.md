@@ -1,5 +1,3 @@
-Certainly! Here's a "README" style explanation for the provided code:
-
 ## YOLOv8 Video Inference with Grid Visualization
 
 This code performs object detection using the YOLOv8 model on a video file and overlays a grid onto the frames to assist in analysis. It provides interactive controls to adjust the grid density and the size of detected objects for better visualization.
@@ -23,6 +21,9 @@ This code performs object detection using the YOLOv8 model on a video file and o
    ```
    /home/peacefulcat/PycharmProjects/yolokidneystone/runs/detect/train2/weights/best.pt
    ```
+
+3. Replace the `results.py` file in the Ultralytics library:
+   Replace the existing `results.py` file located at `/home/peacefulcat/PycharmProjects/yolokidneystone/venv/lib/python3.10/site-packages/ultralytics/engine/results.py` with the provided `results.py` file.
 
 ### Usage
 
