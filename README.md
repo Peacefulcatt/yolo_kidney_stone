@@ -19,11 +19,11 @@ This code performs object detection using the YOLOv8 model on a video file and o
 
 2. Make sure you have the YOLOv8 model weights file (`best.pt`) in the specified path:
    ```
-   /home/peacefulcat/PycharmProjects/yolokidneystone/runs/detect/train2/weights/best.pt
+   /home/peacefulcat/PycharmProjects/yolo_kidney_stone/weights/best.pt
    ```
 
 3. Replace the `results.py` file in the Ultralytics library:
-   Replace the existing `results.py` file located at `/home/peacefulcat/PycharmProjects/yolokidneystone/venv/lib/python3.10/site-packages/ultralytics/engine/results.py` with the provided `results.py` file.
+   Replace the existing `results.py` file located at your computer `/'something'/'bla'/'bla'/venv/lib/python3.10/site-packages/ultralytics/engine/results.py` with the provided `results.py` file.
 
 ### Usage
 
