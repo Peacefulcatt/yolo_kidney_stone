@@ -1,0 +1,13 @@
+train: ../kidneystones.v3i.yolov8/train/images
+val: ../kidneystones.v3i.yolov8/valid/images
+test: ../kidneystones.v3i.yolov8/test/images
+
+nc: 2
+names: ['', '']
+
+roboflow:
+  workspace: umut-yldz-jqbyy
+  project: kidneystones
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/umut-yldz-jqbyy/kidneystones/dataset/3
